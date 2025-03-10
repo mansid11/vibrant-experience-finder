@@ -38,7 +38,7 @@ const HeroSection = () => {
   }, [slides.length]);
   
   return (
-    <div className="relative h-[85vh] overflow-hidden">
+    <div className="relative h-[80vh] md:h-[85vh] overflow-hidden">
       {/* Background Slider */}
       <div className="absolute inset-0 transition-opacity duration-1000">
         {slides.map((slide, index) => (
@@ -92,7 +92,7 @@ const HeroSection = () => {
         </div>
         
         {/* Search Bar - Desktop */}
-        <div className="hidden md:flex absolute bottom-8 left-0 right-0 mx-4 md:mx-auto md:max-w-2xl bg-tufan-card/90 backdrop-blur-md border border-tufan-gray rounded-full overflow-hidden animate-slide-up shadow-lg">
+        <div className="hidden md:flex absolute bottom-12 left-0 right-0 mx-4 md:mx-auto md:max-w-2xl bg-tufan-card/90 backdrop-blur-md border border-tufan-gray rounded-full overflow-hidden animate-slide-up shadow-lg">
           <input 
             type="text" 
             placeholder="Search events, artists or venues..." 
@@ -105,7 +105,7 @@ const HeroSection = () => {
         </div>
         
         {/* Trending Tags */}
-        <div className="hidden md:flex absolute bottom-28 left-0 right-0 mx-4 md:mx-auto md:max-w-2xl items-center gap-2 animate-fade-in">
+        <div className="hidden md:flex absolute bottom-32 left-0 right-0 mx-4 md:mx-auto md:max-w-2xl items-center gap-2 animate-fade-in">
           <span className="flex items-center text-tufan-pink font-medium">
             <TrendingUp className="h-4 w-4 mr-1" />
             Trending:
@@ -122,7 +122,7 @@ const HeroSection = () => {
       </div>
       
       {/* Slide Indicators */}
-      <div className="absolute bottom-16 right-8 flex gap-2">
+      <div className="absolute bottom-4 right-8 md:bottom-16 flex gap-2">
         {slides.map((_, index) => (
           <button
             key={index}

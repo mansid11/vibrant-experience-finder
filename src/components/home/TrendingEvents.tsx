@@ -11,9 +11,9 @@ interface TrendingEventsProps {
 
 const TrendingEvents: React.FC<TrendingEventsProps> = ({ events }) => {
   return (
-    <section className="py-12">
+    <section className="py-16 mt-4">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex flex-col xs:flex-row justify-between items-start xs:items-center mb-8 gap-4">
           <Heading
             title="Trending Events"
             description="Most popular events this week"

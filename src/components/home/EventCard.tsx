@@ -42,7 +42,7 @@ const EventCard: React.FC<EventProps> = ({
 
   return (
     <Link to={`/event/${id}`}>
-      <div className="event-card h-[480px] mb-6 animate-fade-in">
+      <div className="event-card h-[420px] xs:h-[450px] sm:h-[480px] mb-4 sm:mb-6 animate-fade-in">
         <div className="relative h-full w-full overflow-hidden">
           <img 
             src={image} 
@@ -79,37 +79,37 @@ const EventCard: React.FC<EventProps> = ({
           </Button>
           
           {/* Content */}
-          <div className="absolute bottom-0 left-0 right-0 p-6">
-            <h3 className="text-2xl font-display font-bold text-white mb-2 line-clamp-2">
+          <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+            <h3 className="text-xl sm:text-2xl font-display font-bold text-white mb-2 line-clamp-2">
               {title}
             </h3>
             
-            <div className="flex flex-col gap-2 mb-4">
-              <div className="flex items-center text-gray-200">
-                <Calendar className="h-4 w-4 mr-2 text-tufan-pink" />
-                <span className="text-sm">{date}</span>
+            <div className="flex flex-col gap-1 sm:gap-2 mb-3 sm:mb-4">
+              <div className="flex items-center text-gray-200 flex-wrap">
+                <Calendar className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-2 text-tufan-pink" />
+                <span className="text-xs sm:text-sm mr-3 sm:mr-4">{date}</span>
                 
-                <Clock className="h-4 w-4 ml-4 mr-2 text-tufan-pink" />
-                <span className="text-sm">{time}</span>
+                <Clock className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-2 text-tufan-pink" />
+                <span className="text-xs sm:text-sm">{time}</span>
               </div>
               
               <div className="flex items-center text-gray-200">
-                <MapPin className="h-4 w-4 mr-2 text-tufan-pink" />
-                <span className="text-sm">{location}</span>
+                <MapPin className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-2 text-tufan-pink" />
+                <span className="text-xs sm:text-sm truncate">{location}</span>
               </div>
               
               <div className="flex items-center text-gray-200">
-                <Star className="h-4 w-4 mr-2 text-yellow-400 fill-yellow-400" />
-                <span className="text-sm">{rating.toFixed(1)}</span>
+                <Star className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-2 text-yellow-400 fill-yellow-400" />
+                <span className="text-xs sm:text-sm">{rating.toFixed(1)}</span>
               </div>
             </div>
             
             <div className="flex justify-between items-center">
-              <span className="text-white font-bold">
+              <span className="text-white font-bold text-sm sm:text-base">
                 {price === 'Free' ? 'Free' : `From ${price}`}
               </span>
               
-              <Button className="bg-tufan-purple hover:bg-tufan-purple/90 text-white font-medium">
+              <Button className="bg-tufan-purple hover:bg-tufan-purple/90 text-white font-medium text-xs sm:text-sm py-1 px-3 sm:px-4 h-8 sm:h-10">
                 Book Now
               </Button>
             </div>

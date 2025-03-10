@@ -16,7 +16,7 @@ const EventsPage = () => {
       date: 'Sat, 15 Oct 2023',
       time: '9:00 PM - 2:00 AM',
       location: 'Skyline Arena, New York',
-      price: '$45',
+      price: '₹3,500',
       image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       category: 'Music',
       rating: 4.8,
@@ -28,7 +28,7 @@ const EventsPage = () => {
       date: 'Wed, 22 Oct 2023',
       time: '9:00 AM - 6:00 PM',
       location: 'Convention Center, Boston',
-      price: '$120',
+      price: '₹9,000',
       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
       category: 'Conference',
       rating: 4.5
@@ -39,7 +39,7 @@ const EventsPage = () => {
       date: 'Sat, 28 Oct 2023',
       time: '7:00 PM - 10:00 PM',
       location: 'Sports Arena, Miami',
-      price: '$35',
+      price: '₹2,800',
       image: 'https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80',
       category: 'Sports',
       rating: 4.7
@@ -50,7 +50,7 @@ const EventsPage = () => {
       date: 'Fri, 20 Oct 2023',
       time: '8:00 PM - 11:00 PM',
       location: 'The Comedy Club, Chicago',
-      price: '$25',
+      price: '₹1,999',
       image: 'https://images.unsplash.com/photo-1527224538127-2104bb71c51b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80',
       category: 'Comedy',
       rating: 4.6
@@ -61,7 +61,7 @@ const EventsPage = () => {
       date: 'Sun, 29 Oct 2023',
       time: '3:00 PM - 6:00 PM',
       location: 'Theater District, New York',
-      price: '$80',
+      price: '₹6,500',
       image: 'https://images.unsplash.com/photo-1503095396549-807759245b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
       category: 'Theater',
       rating: 4.9
@@ -72,7 +72,7 @@ const EventsPage = () => {
       date: 'Sat, 4 Nov 2023',
       time: '12:00 PM - 10:00 PM',
       location: 'Central Park, New York',
-      price: '$65',
+      price: '₹4,999',
       image: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
       category: 'Music',
       rating: 4.5
@@ -95,23 +95,25 @@ const EventsPage = () => {
         />
 
         <Tabs defaultValue="all" className="w-full">
-          <TabsList className="mb-6 w-full sm:w-auto bg-tufan-dark border border-tufan-gray">
-            <TabsTrigger value="all" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
-              All Events
-            </TabsTrigger>
-            <TabsTrigger value="today" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
-              Today
-            </TabsTrigger>
-            <TabsTrigger value="upcoming" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
-              Upcoming
-            </TabsTrigger>
-            <TabsTrigger value="weekend" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
-              Weekend
-            </TabsTrigger>
-          </TabsList>
+          <div className="overflow-x-auto pb-2 -mx-4 px-4">
+            <TabsList className="mb-6 w-full sm:w-auto bg-tufan-dark border border-tufan-gray min-w-max">
+              <TabsTrigger value="all" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
+                All Events
+              </TabsTrigger>
+              <TabsTrigger value="today" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
+                Today
+              </TabsTrigger>
+              <TabsTrigger value="upcoming" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
+                Upcoming
+              </TabsTrigger>
+              <TabsTrigger value="weekend" className="data-[state=active]:bg-tufan-purple data-[state=active]:text-white">
+                Weekend
+              </TabsTrigger>
+            </TabsList>
+          </div>
 
           <TabsContent value="all" className="mt-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {allEvents.map(event => (
                 <EventCard key={event.id} {...event} />
               ))}
@@ -119,7 +121,7 @@ const EventsPage = () => {
           </TabsContent>
 
           <TabsContent value="today" className="mt-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {todayEvents.map(event => (
                 <EventCard key={event.id} {...event} />
               ))}
@@ -127,7 +129,7 @@ const EventsPage = () => {
           </TabsContent>
 
           <TabsContent value="upcoming" className="mt-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {upcomingEvents.map(event => (
                 <EventCard key={event.id} {...event} />
               ))}
@@ -135,7 +137,7 @@ const EventsPage = () => {
           </TabsContent>
 
           <TabsContent value="weekend" className="mt-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {weekendEvents.map(event => (
                 <EventCard key={event.id} {...event} />
               ))}

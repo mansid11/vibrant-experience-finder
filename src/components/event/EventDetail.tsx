@@ -19,7 +19,7 @@ const EventDetail = () => {
   const event = {
     id: id || 'featured',
     title: 'EDM Night with DJ ALAN',
-    date: 'Sat, 15 Oct 2023',
+    date: 'Sat, 15 Oct 2025',
     time: '9:00 PM - 2:00 AM',
     location: 'Skyline Arena, New York',
     price: '$45',
@@ -35,9 +35,9 @@ const EventDetail = () => {
       verified: true
     },
     ticketTiers: [
-      { name: 'General Admission', price: '$45', available: true },
-      { name: 'VIP Access', price: '$120', available: true },
-      { name: 'Premium Experience', price: '$250', available: false }
+      { name: 'General Admission', price: '₹450', available: true },
+      { name: 'VIP Access', price: '₹1200', available: true },
+      { name: 'Premium Experience', price: '₹2500', available: false }
     ],
     friends: [
       { name: 'Alex', image: 'https://i.pravatar.cc/150?img=1' },

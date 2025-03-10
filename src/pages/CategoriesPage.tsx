@@ -94,7 +94,7 @@ const CategoriesPage = () => {
     {
       id: 'event1',
       title: 'EDM Night with DJ ALAN',
-      date: 'Sat, 15 Oct 2023',
+      date: 'Sat, 15 Oct 2025',
       time: '9:00 PM - 2:00 AM',
       location: 'Skyline Arena, New York',
       price: '$45',
@@ -104,8 +104,8 @@ const CategoriesPage = () => {
     },
     {
       id: 'event2',
-      title: 'Tech Conference 2023',
-      date: 'Wed, 22 Oct 2023',
+      title: 'Tech Conference 2025',
+      date: 'Wed, 22 Oct 2025',
       time: '9:00 AM - 6:00 PM',
       location: 'Convention Center, Boston',
       price: '$120',
@@ -115,8 +115,8 @@ const CategoriesPage = () => {
     },
     {
       id: 'event3',
-      title: 'Basketball Finals 2023',
-      date: 'Sat, 28 Oct 2023',
+      title: 'Basketball Finals 2025',
+      date: 'Sat, 28 Oct 2025',
       time: '7:00 PM - 10:00 PM',
       location: 'Sports Arena, Miami',
       price: '$35',

@@ -14,10 +14,10 @@ const Index = () => {
     {
       id: 'event1',
       title: 'EDM Night with DJ ALAN',
-      date: 'Sat, 15 Oct 2023',
+      date: 'Sat, 15 Oct 2025',
       time: '9:00 PM - 2:00 AM',
       location: 'Skyline Arena, New York',
-      price: '$45',
+      price: '₹4500',
       image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       category: 'Music',
       rating: 4.8,
@@ -25,22 +25,22 @@ const Index = () => {
     },
     {
       id: 'event2',
-      title: 'Tech Conference 2023',
-      date: 'Wed, 22 Oct 2023',
+      title: 'Tech Conference 2025',
+      date: 'Wed, 22 Oct 2025',
       time: '9:00 AM - 6:00 PM',
       location: 'Convention Center, Boston',
-      price: '$120',
+      price: '₹120',
       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
       category: 'Conference',
       rating: 4.5
     },
     {
       id: 'event3',
-      title: 'Basketball Finals 2023',
-      date: 'Sat, 28 Oct 2023',
+      title: 'Basketball Finals 2025',
+      date: 'Sat, 28 Oct 2025',
       time: '7:00 PM - 10:00 PM',
       location: 'Sports Arena, Miami',
-      price: '$35',
+      price: '₹350',
       image: 'https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80',
       category: 'Sports',
       rating: 4.7
@@ -51,10 +51,10 @@ const Index = () => {
     {
       id: 'event4',
       title: 'Comedy Night Special',
-      date: 'Fri, 20 Oct 2023',
+      date: 'Fri, 20 Oct 2025',
       time: '8:00 PM - 11:00 PM',
       location: 'The Comedy Club, Chicago',
-      price: '$25',
+      price: '₹250',
       image: 'https://images.unsplash.com/photo-1527224538127-2104bb71c51b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80',
       category: 'Comedy',
       rating: 4.6
@@ -62,10 +62,10 @@ const Index = () => {
     {
       id: 'event5',
       title: 'Broadway: Hamilton',
-      date: 'Sun, 29 Oct 2023',
+      date: 'Sun, 29 Oct 2025',
       time: '3:00 PM - 6:00 PM',
       location: 'Theater District, New York',
-      price: '$80',
+      price: '₹800',
       image: 'https://images.unsplash.com/photo-1503095396549-807759245b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
       category: 'Theater',
       rating: 4.9
@@ -73,10 +73,10 @@ const Index = () => {
     {
       id: 'event6',
       title: 'Summer Music Festival',
-      date: 'Sat, 4 Nov 2023',
+      date: 'Sat, 4 Nov 2025',
       time: '12:00 PM - 10:00 PM',
       location: 'Central Park, New York',
-      price: '$65',
+      price: '₹650',
       image: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
       category: 'Music',
       rating: 4.5

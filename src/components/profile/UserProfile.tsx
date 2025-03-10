@@ -34,14 +34,14 @@ const UserProfile = () => {
       {
         id: 'e1',
         title: 'EDM Night with DJ ALAN',
-        date: 'Sat, 15 Oct 2023',
+        date: 'Sat, 15 Oct 2025',
         image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800',
         location: 'Skyline Arena, New York'
       },
       {
         id: 'e2',
-        title: 'Tech Conference 2023',
-        date: 'Wed, 22 Oct 2023',
+        title: 'Tech Conference 2025',
+        date: 'Wed, 22 Oct 2025',
         image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
         location: 'Convention Center, Boston'
       }
@@ -50,21 +50,21 @@ const UserProfile = () => {
       {
         id: 'e3',
         title: 'Summer Music Festival',
-        date: '12 Jul 2023',
+        date: '12 Jul 2025',
         image: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800',
         location: 'Central Park, New York'
       },
       {
         id: 'e4',
         title: 'Comedy Night Special',
-        date: '30 Jun 2023',
+        date: '30 Jun 2025',
         image: 'https://images.unsplash.com/photo-1527224538127-2104bb71c51b?w=800',
         location: 'The Comedy Club, Chicago'
       },
       {
         id: 'e5',
-        title: 'Basketball Finals 2023',
-        date: '15 May 2023',
+        title: 'Basketball Finals 2025',
+        date: '15 May 2025',
         image: 'https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=800',
         location: 'Sports Arena, Miami'
       }
@@ -73,14 +73,14 @@ const UserProfile = () => {
       {
         id: 'e6',
         title: 'Classical Music Night',
-        date: '05 Nov 2023',
+        date: '05 Nov 2025',
         image: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800',
         location: 'Symphony Hall, Boston'
       },
       {
         id: 'e7',
         title: 'Street Art Festival',
-        date: '19 Nov 2023',
+        date: '19 Nov 2025',
         image: 'https://images.unsplash.com/photo-1551913902-c92207136625?w=800',
         location: 'Downtown, Los Angeles'
       }

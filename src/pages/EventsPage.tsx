@@ -13,7 +13,7 @@ const EventsPage = () => {
     {
       id: 'event1',
       title: 'EDM Night with DJ ALAN',
-      date: 'Sat, 15 Oct 2023',
+      date: 'Sat, 15 Oct 2025',
       time: '9:00 PM - 2:00 AM',
       location: 'Skyline Arena, New York',
       price: '₹3,500',
@@ -24,8 +24,8 @@ const EventsPage = () => {
     },
     {
       id: 'event2',
-      title: 'Tech Conference 2023',
-      date: 'Wed, 22 Oct 2023',
+      title: 'Tech Conference 2025',
+      date: 'Wed, 22 Oct 2025',
       time: '9:00 AM - 6:00 PM',
       location: 'Convention Center, Boston',
       price: '₹9,000',
@@ -35,8 +35,8 @@ const EventsPage = () => {
     },
     {
       id: 'event3',
-      title: 'Basketball Finals 2023',
-      date: 'Sat, 28 Oct 2023',
+      title: 'Basketball Finals 2025',
+      date: 'Sat, 28 Oct 2025',
       time: '7:00 PM - 10:00 PM',
       location: 'Sports Arena, Miami',
       price: '₹2,800',
@@ -47,7 +47,7 @@ const EventsPage = () => {
     {
       id: 'event4',
       title: 'Comedy Night Special',
-      date: 'Fri, 20 Oct 2023',
+      date: 'Fri, 20 Oct 2025',
       time: '8:00 PM - 11:00 PM',
       location: 'The Comedy Club, Chicago',
       price: '₹1,999',
@@ -58,7 +58,7 @@ const EventsPage = () => {
     {
       id: 'event5',
       title: 'Broadway: Hamilton',
-      date: 'Sun, 29 Oct 2023',
+      date: 'Sun, 29 Oct 2025',
       time: '3:00 PM - 6:00 PM',
       location: 'Theater District, New York',
       price: '₹6,500',
@@ -69,7 +69,7 @@ const EventsPage = () => {
     {
       id: 'event6',
       title: 'Summer Music Festival',
-      date: 'Sat, 4 Nov 2023',
+      date: 'Sat, 4 Nov 2025',
       time: '12:00 PM - 10:00 PM',
       location: 'Central Park, New York',
       price: '₹4,999',

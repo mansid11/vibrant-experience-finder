@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import { 
   Settings, Bookmark, Ticket, Wallet, CalendarCheck, 
-  User, Award, Star, Heart, Bell, LogOut, ChevronRight 
+  User, Award, Star, Heart, Bell, LogOut, ChevronRight,
+  Calendar, MapPin
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
